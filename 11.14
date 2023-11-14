@@ -1,1 +1,10 @@
-11.1
+#include <stdio.h>
+
+int main()
+{
+    int* p;
+    int a = 0;
+    p = &a;
+    scanf("%d", &a);
+    printf("%d, %p\n", a, &a);
+}
